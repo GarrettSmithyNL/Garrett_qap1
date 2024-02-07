@@ -5,18 +5,11 @@ body {
   margin: auto;
   font-family: "Inter", sans-serif;
 }
-
 header {
   border: 1px solid #000;
   height: 100px;
   width: 800px;
   text-align: center;
-}
-
-nav {
-  border: 1px solid #000;
-  height: 400px;
-  width: 200px;
 }
 
 .button {
@@ -31,6 +24,13 @@ nav {
 .flex1 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.flex2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   flex-direction: column;
 }
