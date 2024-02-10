@@ -1,0 +1,19 @@
+1.) This took me about 6 hours in total to complete. The
+      part that took me the longest was definitly setting up
+      the flex boxes for the layout of the page, which took
+      3 hours.
+
+2.) I only used w3schools for html and css, seeing how the basics
+      work then I would just play with the element on the page.
+
+3.) I asked my girlfriend who is a software developer about sizing
+    and sytling, so it looks good. 
+
+4.) I asked a couple of questions in class about classless css.
+    Im also always questions in class.
+
+5.) This was about a 3 or a 4 out of 5 in terms of difficulty, all
+      the little pixel movement with the flex boxes. The only 
+      thing that I would do differently would be to start with 
+      setting up the flexboxes first then add the content, which is
+      something i didnt do. 
