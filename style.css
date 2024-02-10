@@ -1,0 +1,172 @@
+/* 
+  This is the main style sheet for the project.
+  It is used to style the HTML elements and make the
+  page look more appealing.
+  By: Garrett Smith 
+  Date: Feb 10/2024s
+*/
+
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+/* 
+  This is for hiding the scroll bar in the browser
+  to keep the design clean, margins kept changing 
+  when the scrollbar appeared and disappeared.
+  This works for all browsers, the top one is for chromium,
+  and the bottom two are for firefox and edge.
+*/
+* ::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  background-color: #ffdeca;
+}
+
+/* 
+  Below is the styling for the HTML elements.
+*/
+header {
+  border: 3px solid #ae5a28;
+  border-radius: 25px;
+  height: 100px;
+  width: 800px;
+  text-align: center;
+  line-height: 35px;
+  margin-top: 20px;
+  background-color: #f59777;
+}
+
+h1 {
+  background-color: #f59777;
+  color: #224572;
+  font-size: 36pt;
+}
+
+h3 {
+  color: #224572;
+  font-size: 22pt;
+}
+
+nav {
+  height: 420px;
+  width: 160px;
+}
+
+body {
+  width: 800px;
+  margin: auto;
+  font-family: "Inter", sans-serif;
+  font-size: 14pt;
+  margin-bottom: 30px;
+}
+
+i,
+b {
+  color: #224572;
+}
+
+figure {
+  text-align: center;
+}
+
+img {
+  border: 3px solid #224572;
+  border-radius: 25px;
+}
+
+figcaption {
+  font-size: 10pt;
+}
+
+ul {
+  list-style-image: url(../pictures/cat-solid.svg);
+  list-style-position: outside;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+iframe {
+  border: 3px solid #224572;
+  border-radius: 25px;
+}
+
+audio {
+  border: 3px solid #224572;
+  border-radius: 25px;
+}
+
+/*
+  Below is the styling for the classes and id's
+  used in the HTML file.
+*/
+
+.button {
+  border: 3px solid #ae7b28;
+  border-radius: 25px;
+  height: 100px;
+  width: 154px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #f5c577;
+  color: #224572;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.flexMain {
+  display: flex;
+}
+
+.flexNav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.flexIcons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.flexBody {
+  display: flex;
+  width: 640px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navLink {
+  text-decoration: none;
+  font-size: 16pt;
+}
+
+.iconText {
+  color: #224572;
+}
+
+.sourceLink {
+  text-decoration: underline;
+  color: #ae5a28;
+  font-size: 10pt;
+}
+
+.bodyPara {
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: left;
+}
+
+#catList {
+  width: 600px;
+  margin-left: -10px;
+}
